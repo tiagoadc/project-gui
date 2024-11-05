@@ -1,0 +1,41 @@
+
+.TopBar{
+    align-items: center;
+    background-color: $white;
+    border-bottom: 1px solid #e7e6e7;
+    box-shadow: 0px 2px 20px rgb(1 41 112 / 10%);
+    color: $black;
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    margin-bottom: 40px !important;
+    padding: 10px 10px;
+    transition: all 0.5s;
+    z-index: 997;
+    width: 100%;
+    &_align{
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+    }
+     &_Menu{
+       &-item{
+        color: $black;
+        &:hover{
+          border-bottom: 1px solid $black;
+        }
+        &:active{
+          border-bottom: 1px solid $black;
+        }
+       }
+     }
+     .topbar_align{
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      align-items: center;
+      justify-content: flex-end;;
+     }
+}

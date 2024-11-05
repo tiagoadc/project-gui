@@ -1,0 +1,82 @@
+.title{
+    color: #2C3357;
+    font-size: 28px;
+    line-height: 1.3;
+  
+}
+.subtitle{
+    color: #2C3357;
+    font-size: 24px;
+    line-height: 1.3;
+    margin: 15px 0 10px 0;
+}
+.cardStyle{
+    text-align: center;
+    position: relative;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-top: 1em;
+    color: #ffffff;
+    border: solid 1px #dfe6ee;
+    border-radius: 3px;
+    box-shadow: 0 4px 20px 1px rgb(0 0 0 / 6%), 0 1px 4px rgb(0 0 0 / 8%);
+   //#9ca3b9
+   //#8b5cf6
+   &orange{
+    background-image: linear-gradient(to right, #f8c737, #f4a22e);
+   }
+   &blue{
+    background-image: linear-gradient(to right, #12aeee, #0080d4);
+   }
+   &pink{
+    background-image: linear-gradient(to right, #fe7b94, #fd4a85);
+   }
+   &purple{
+    background-image: linear-gradient(to right, #bc74f8, #9042db);
+   }
+   &Icon{
+    border: solid 1.4px white;
+    width: 45px;
+    line-height: 40px;
+    height: 45px;
+    font-size: 24px;
+    margin: auto;
+    margin-top: -24px;
+    border-radius: 50%;
+    color: #fff;
+    &orange{
+        background-image: linear-gradient(to right, #f8c737, #f4a22e);
+    }
+    &blue{
+        background-image: linear-gradient(to right, #12aeee, #0080d4);
+    }
+    &pink{
+        background-image: linear-gradient(to right, #fe7b94, #fd4a85);
+    }
+    &purple{
+        background-image: linear-gradient(to right, #bc74f8, #9042db);
+    }
+   }
+   &Legenda{
+        padding: 8px;
+        font-size: 18px;
+        letter-spacing: 0.23px;
+   }
+   &SubLegenda{
+        padding: 8px;
+        font-size: 14px;
+   }
+   &Number{
+         padding: 8px;
+         font-size: 30px;
+         letter-spacing: 1px;   
+   }
+   &Icon{
+        color: white;
+        font-size: 3rem;
+   }
+
+}
+.cardWrapper{
+    margin: 20px 0;
+}
